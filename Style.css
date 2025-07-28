@@ -11,7 +11,7 @@
 .image-box {
   width: 448px; /* Matches max-w-md (28rem ≈ 448px) */
   height: 350px; /* Matches the approximate height of the "Follow Us" box */
-  background-image: url('Images/turath.jpg');
+  background-image: url('images/turath.jpg');
   background-size: cover; /* Ensures the image fills the box */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
