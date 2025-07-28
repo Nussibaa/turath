@@ -1,0 +1,53 @@
+.icon-link svg {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon-link:hover svg {
+  transform: scale(1.1);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.image-box {
+  width: 448px; /* Matches max-w-md (28rem ≈ 448px) */
+  height: 350px; /* Matches the approximate height of the "Follow Us" box */
+  background-image: url('images/turath3.jpg');
+  background-size: cover; /* Ensures the image fills the box */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  border: none; /* Ensures no borders */
+  color: black;
+}
+
+body {
+  gap: 20; /* Ensures no gap between image and box */
+}
+
+/* Styling for the follow box */
+.bg-white {
+  /* border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease; */
+  margin-top:10px;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .image-box {
+    width: 90%; /* Scales with screen size */
+    height: 300px; /* Adjusted for mobile */
+  }
+
+  .bg-white {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
+
+  .flex space-x-6 > * {
+    width: 8%;
+  }
+}
